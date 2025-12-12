@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Debasish Pradhan— Portfolio</title>
+  <link rel="stylesheet" href="land.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="site-title"><b>Debasish Pradhan</b></div>
+        <div class="site-sub">Professional Developer &amp; B-tech student</div>
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation" id="mainNav">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#services">Services</a>
+        <a class="nav-link" href="#works">Works</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+
+      <button class="mobile-toggle" id="menuBtn" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero section-reveal">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>DEBASISH PRADHAN</h1>
+          <p class="lead">
+            I am a Professional Developer and ICT Degree holder with five years of experience in the IT sector as an ICT Lecturer.
+            I build reliable web applications and teach the next generation of developers.
+          </p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn-primary">Hire Me</a>
+            <a href="#about" class="link-muted">Learn more</a>
+          </div>
+        </div>
+
+        <div class="hero-image" aria-hidden>
+          <img src="chhiii2.jpg" alt=" Debasish Pradhan portrait" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about section-reveal">
+      <div class="container about-inner">
+        <div class="about-content">
+          <h2>About Me</h2>
+          <p class="about-lead">A dedicated developer with a practical approach to software and teaching.</p>
+
+          <p>
+            Software Developers use programming languages and tools to design, build, test, and maintain applications.
+            I focus on creating maintainable code, clear documentation, and well-tested features. In teaching, I combine theory
+            with real projects so students graduate with practical skills.
+          </p>
+
+          <a href="debasish.resume.pdf" class="btn-secondary" download>Download Resume</a>
+        </div>
+
+        <aside class="about-stats" id="stats">
+          <div class="stat card">
+            <div class="stat-number" data-target="0">0</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat card">
+            <div class="stat-number" data-target="5">0</div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div class="stat card">
+            <div class="stat-number" data-target="200">0</div>
+            <div class="stat-label">Students Taught</div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- SERVICES (placeholder) -->
+    <section id="services" class="section-reveal">
+      <div class="container" style="padding:40px 0;">
+        <h3>Services</h3>
+        <p class="muted">Web development,Data Analyst &amp;Student.</p>
+      </div>
+    </section>
+
+    <!-- WORKS (placeholder) -->
+    <section id="works" class="section-reveal">
+      <div class="container" style="padding:40px 0;">
+        <h3>Selected Works</h3>
+        <p class="muted">A few projects to demonstrate front-end and full-stack work (placeholder).</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact section-reveal">
+      <div class="container contact-inner">
+        <h3><b>Get in touch</b></h3>
+        <form class="contact-form" id="contactForm" onsubmit="event.preventDefault(); alert('Message sent (demo)');">
+          <input type="text" name="name" placeholder="Your name" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <textarea name="message" rows="4" placeholder="Message" required></textarea>
+          <button class="btn-primary" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2025 Debasish Pradhan</div>
+      <div class="footer-links">
+        <a href="#">Privacy</a> · <a href="#">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="land.js"></script>
+</body>
+</html>
